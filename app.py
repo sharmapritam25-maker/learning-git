@@ -1,6 +1,3 @@
-# Compute and print the sum of three numbers
-a = 5
-b = 5
-z = 10
-c = a + b + z
-print(c)
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+print(f"The sum of {a} and {b} is {a + b}")
